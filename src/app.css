@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav-bar {
+    display: flex;
+    position: fixed;
+}
+
+.nav-text {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.social-sites {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    padding-left: 70vi; 
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.icon-text {
+    padding-left: 10px;
+}
