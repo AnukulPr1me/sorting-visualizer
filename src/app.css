@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 
-
-
 .nav-bar {
     display: flex;
     position: fixed;
+    background-color: rgb(15, 96, 96);
 }
 
 .nav-text {
@@ -21,7 +20,7 @@
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    padding-left: 70vi; 
+    padding-left: 65vi; 
 }
 
 .nav-item {
@@ -36,4 +35,9 @@
 
 .icon-text {
     padding-left: 10px;
+}
+
+.form-check {
+    padding-right: 50px;
+    font-size: 20px;
 }
